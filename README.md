@@ -8,14 +8,15 @@ The goal is to help data scientists understand the trade-offs between the two pl
 ---
 
 ## Use Case: Churn Prediction
-Customer loss can significantly impact a business’s bottom line. By detecting at-risk customers early, companies can proactively engage them with retention strategies. In this workshop, we'll explore how to use Snowflake’s machine learning (ML) capabilities to automate the identification of dissatisfied customers—commonly referred to as churn prediction
+
+To ensure a fair comparison between both platforms, I’ve chosen an example from the AWS SageMaker repository: Customer Churn Prediction. Customer loss (or churn) can significantly affect a business’s bottom line. By identifying at-risk customers early, companies can proactively implement retention strategies. In this workshop, we’ll demonstrate how to leverage Snowflake’s machine learning (ML) capabilities to automate the detection of dissatisfied customers—commonly known as [churn prediction] (https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_applying_machine_learning/xgboost_customer_churn/xgboost_customer_churn_outputs.html#Data)
+
 
 ---
 
 ## Platforms Compared
 
 ### ✅ Amazon SageMaker Notebook
-https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_applying_machine_learning/xgboost_customer_churn/xgboost_customer_churn_outputs.html#Data
 
 - Runs on managed EC2 infrastructure
 - Uses S3 for data input/output
