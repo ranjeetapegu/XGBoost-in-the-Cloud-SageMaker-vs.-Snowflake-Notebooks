@@ -46,6 +46,22 @@ To ensure a fair comparison between both platforms, I’ve chosen an example fro
 
 
 
+## 📘 Notebooks
+
+I have added 2 notebooks:
+
+### 1. `xgboost_CUSTOMER_CHURN_OSS.ipynb`
+- Trains an XGBoost model using **open-source XGBoost** on the Snowflake container runtime.
+- Data is loaded from a Snowflake table.
+- The Snowflake container runtime is pre-loaded with all the dependent libraries.
+- **Limitation:** No distributed training support.
+
+### 2. `xgboost_CUSTOMER_CHURN_snowflake_distributed.ipynb`
+- Trains the model using **Snowflake's distributed XGBoost** inside Snowpark.
+- Training is executed **within Snowflake compute**, avoiding data transfer.
+- Ideal for large-scale data and production workflows.
+- Leverages Snowflake’s parallel processing and scalability.
+
 
 
 
