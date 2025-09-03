@@ -56,7 +56,7 @@ I have added 2 notebooks:
 - The Snowflake container runtime is pre-loaded with all the dependent libraries.
 - **Limitation:** No distributed training support.
 
-### 2. `xgboost_CUSTOMER_CHURN_snowflake_distributed.ipynb`
+### 2. `xgboost_CUSTOMER_CHURN_SNF.ipynb`
 - Trains the model using **Snowflake's distributed XGBoost** inside Snowpark.
 - Training is executed **within Snowflake compute**, avoiding data transfer.
 - Ideal for large-scale data and production workflows.
